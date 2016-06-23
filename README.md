@@ -6,3 +6,4 @@ Digital Circuit Project + Custom WiredPanda build (github.com/GIBIS-UNIFESP/wiRe
 - Gerador de Música
 - Melhorar a Interface?
 - Compositor de Música por Buzzer?
+- Melhorar Cell_Box
