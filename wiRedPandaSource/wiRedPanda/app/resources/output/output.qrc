@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/output">
+        <file>WhiteLedOff.png</file>
+        <file>BlueLedOff.png</file>
+        <file>GreenLedOff.png</file>
+        <file>PurpleLedOff.png</file>
+        <file>RedLedOff.png</file>
+        <file>BlueLedOn.png</file>
+        <file>WhiteLedOn.png</file>
+        <file>RedLedOn.png</file>
+        <file>PurpleLedOn.png</file>
+        <file>GreenLedOn.png</file>
+        <file>counter/counter_a.png</file>
+        <file>counter/counter_b.png</file>
+        <file>counter/counter_c.png</file>
+        <file>counter/counter_d.png</file>
+        <file>counter/counter_e.png</file>
+        <file>counter/counter_f.png</file>
+        <file>counter/counter_g.png</file>
+        <file>counter/counter_h.png</file>
+        <file>counter/counter_off.png</file>
+        <file>counter/counter_on.png</file>
+        <file>beepon.png</file>
+        <file>beepoff.png</file>
+    </qresource>
+</RCC>

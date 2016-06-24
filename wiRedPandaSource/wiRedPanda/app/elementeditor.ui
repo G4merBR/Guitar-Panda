@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ElementEditor</class>
+ <widget class="QWidget" name="ElementEditor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>202</width>
+    <height>392</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="5" column="0">
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxFrequency">
+     <property name="specialValueText">
+      <string/>
+     </property>
+     <property name="decimals">
+      <number>1</number>
+     </property>
+     <property name="minimum">
+      <double>0.000000000000000</double>
+     </property>
+     <property name="maximum">
+      <double>30.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_frequency">
+     <property name="text">
+      <string>Frequency:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="lineEditElementLabel"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_trigger">
+     <property name="text">
+      <string>Trigger:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_inputs">
+     <property name="text">
+      <string>Input Ports:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QComboBox" name="comboBoxInputSz"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_labels">
+     <property name="text">
+      <string>Label:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLineEdit" name="lineEditTrigger"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QComboBox" name="comboBoxColor">
+     <property name="currentText">
+      <string>Blue</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Blue</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <activeoff>:/output/BlueLedOff.png</activeoff>
+        <activeon>:/output/BlueLedOn.png</activeon>
+       </iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Green</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <activeoff>:/output/GreenLedOff.png</activeoff>
+        <activeon>:/output/GreenLedOn.png</activeon>
+       </iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Purple</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <activeoff>:/output/PurpleLedOff.png</activeoff>
+        <activeon>:/output/PurpleLedOn.png</activeon>
+       </iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Red</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <activeoff>:/output/RedLedOff.png</activeoff>
+        <activeon>:/output/RedLedOn.png</activeon>
+       </iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>White</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <activeoff>:/output/WhiteLedOff.png</activeoff>
+        <activeon>:/output/WhiteLedOn.png</activeon>
+       </iconset>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_color">
+     <property name="text">
+      <string>Color:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_tone">
+     <property name="text">
+      <string>Pitch:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="lineEditElementtone"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

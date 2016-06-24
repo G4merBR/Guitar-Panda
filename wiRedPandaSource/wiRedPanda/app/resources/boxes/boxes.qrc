@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/boxes">
+        <file>memorycell.panda</file>
+    </qresource>
+</RCC>
